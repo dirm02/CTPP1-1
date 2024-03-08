@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CTPP1
 {
-    public partial class CTPP1 : Form
+    public partial class Results : Form
     {
-        public CTPP1()
+        public Results()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
