@@ -33,8 +33,6 @@
             this.TextR3 = new System.Windows.Forms.TextBox();
             this.SiteContact = new System.Windows.Forms.Label();
             this.HourSite = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.TextR4 = new System.Windows.Forms.TextBox();
             this.CurrentStatus = new System.Windows.Forms.Label();
             this.IncidentDescription = new System.Windows.Forms.Label();
@@ -45,6 +43,7 @@
             this.Location = new System.Windows.Forms.Label();
             this.TextR2 = new System.Windows.Forms.TextBox();
             this.CB3 = new System.Windows.Forms.ComboBox();
+            this.ImpactTime = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SiteNumber
@@ -59,6 +58,7 @@
             // 
             // TextR1
             // 
+            this.TextR1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextR1.Location = new System.Drawing.Point(167, 67);
             this.TextR1.Multiline = true;
             this.TextR1.Name = "TextR1";
@@ -67,6 +67,7 @@
             // 
             // TextR3
             // 
+            this.TextR3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextR3.Location = new System.Drawing.Point(167, 114);
             this.TextR3.Multiline = true;
             this.TextR3.Name = "TextR3";
@@ -92,24 +93,9 @@
             this.HourSite.TabIndex = 4;
             this.HourSite.Text = "24 Hour Site:";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(167, 284);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(351, 20);
-            this.textBox4.TabIndex = 11;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 291);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
-            // 
             // TextR4
             // 
+            this.TextR4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextR4.Location = new System.Drawing.Point(167, 245);
             this.TextR4.Name = "TextR4";
             this.TextR4.Size = new System.Drawing.Size(351, 20);
@@ -135,6 +121,7 @@
             // 
             // TopPanel
             // 
+            this.TopPanel.BackColor = System.Drawing.Color.Aquamarine;
             this.TopPanel.Location = new System.Drawing.Point(15, 8);
             this.TopPanel.Name = "TopPanel";
             this.TopPanel.Size = new System.Drawing.Size(659, 53);
@@ -177,6 +164,7 @@
             // 
             // TextR2
             // 
+            this.TextR2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextR2.Location = new System.Drawing.Point(499, 63);
             this.TextR2.Multiline = true;
             this.TextR2.Name = "TextR2";
@@ -191,11 +179,21 @@
             this.CB3.Size = new System.Drawing.Size(351, 21);
             this.CB3.TabIndex = 18;
             // 
+            // ImpactTime
+            // 
+            this.ImpactTime.Location = new System.Drawing.Point(15, 288);
+            this.ImpactTime.Name = "ImpactTime";
+            this.ImpactTime.Size = new System.Drawing.Size(101, 35);
+            this.ImpactTime.TabIndex = 19;
+            this.ImpactTime.Text = "Business Impact Time";
+            this.ImpactTime.UseVisualStyleBackColor = true;
+            // 
             // CTPP1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 466);
+            this.ClientSize = new System.Drawing.Size(686, 483);
+            this.Controls.Add(this.ImpactTime);
             this.Controls.Add(this.CB3);
             this.Controls.Add(this.TextR2);
             this.Controls.Add(this.Location);
@@ -203,8 +201,6 @@
             this.Controls.Add(this.NumberofPayPoints);
             this.Controls.Add(this.CB1);
             this.Controls.Add(this.TopPanel);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.TextR4);
             this.Controls.Add(this.CurrentStatus);
             this.Controls.Add(this.IncidentDescription);
@@ -229,8 +225,6 @@
         private System.Windows.Forms.TextBox TextR3;
         private System.Windows.Forms.Label SiteContact;
         private System.Windows.Forms.Label HourSite;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TextR4;
         private System.Windows.Forms.Label CurrentStatus;
         private System.Windows.Forms.Label IncidentDescription;
@@ -241,6 +235,7 @@
         private System.Windows.Forms.Label Location;
         private System.Windows.Forms.TextBox TextR2;
         private System.Windows.Forms.ComboBox CB3;
+        private System.Windows.Forms.Button ImpactTime;
     }
 }
 
