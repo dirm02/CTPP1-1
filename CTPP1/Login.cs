@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CTPP1
 {
-    public partial class Registration : Form
+    public partial class Login : Form
     {
-        public Registration()
+        public Login()
         {
             InitializeComponent();
         }
