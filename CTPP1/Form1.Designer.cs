@@ -37,14 +37,14 @@
             this.CurrentStatus = new System.Windows.Forms.Label();
             this.IncidentDescription = new System.Windows.Forms.Label();
             this.TopPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.CB1 = new System.Windows.Forms.ComboBox();
             this.NumberofPayPoints = new System.Windows.Forms.Label();
             this.CB2 = new System.Windows.Forms.ComboBox();
-            this.Location = new System.Windows.Forms.Label();
+            this.LLocation = new System.Windows.Forms.Label();
             this.TextR2 = new System.Windows.Forms.TextBox();
             this.CB3 = new System.Windows.Forms.ComboBox();
             this.ImpactTime = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.TopPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -130,6 +130,15 @@
             this.TopPanel.Size = new System.Drawing.Size(659, 53);
             this.TopPanel.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(5, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // CB1
             // 
             this.CB1.FormattingEnabled = true;
@@ -155,15 +164,15 @@
             this.CB2.Size = new System.Drawing.Size(121, 21);
             this.CB2.TabIndex = 15;
             // 
-            // Location
+            // LLocation
             // 
-            this.Location.AutoSize = true;
-            this.Location.ForeColor = System.Drawing.Color.Red;
-            this.Location.Location = new System.Drawing.Point(356, 70);
-            this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(48, 13);
-            this.Location.TabIndex = 16;
-            this.Location.Text = "Location";
+            this.LLocation.AutoSize = true;
+            this.LLocation.ForeColor = System.Drawing.Color.Red;
+            this.LLocation.Location = new System.Drawing.Point(356, 70);
+            this.LLocation.Name = "LLocation";
+            this.LLocation.Size = new System.Drawing.Size(48, 13);
+            this.LLocation.TabIndex = 16;
+            this.LLocation.Text = "Location";
             // 
             // TextR2
             // 
@@ -191,15 +200,6 @@
             this.ImpactTime.Text = "Business Impact Time";
             this.ImpactTime.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(5, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // CTPP1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,7 +208,7 @@
             this.Controls.Add(this.ImpactTime);
             this.Controls.Add(this.CB3);
             this.Controls.Add(this.TextR2);
-            this.Controls.Add(this.Location);
+            this.Controls.Add(this.LLocation);
             this.Controls.Add(this.CB2);
             this.Controls.Add(this.NumberofPayPoints);
             this.Controls.Add(this.CB1);
@@ -247,7 +247,7 @@
         private System.Windows.Forms.ComboBox CB1;
         private System.Windows.Forms.Label NumberofPayPoints;
         private System.Windows.Forms.ComboBox CB2;
-        private System.Windows.Forms.Label Location;
+        private System.Windows.Forms.Label LLocation;
         private System.Windows.Forms.TextBox TextR2;
         private System.Windows.Forms.ComboBox CB3;
         private System.Windows.Forms.Button ImpactTime;

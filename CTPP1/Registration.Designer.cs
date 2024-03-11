@@ -37,12 +37,14 @@
             this.LSignature = new System.Windows.Forms.Label();
             this.FnameText = new System.Windows.Forms.TextBox();
             this.BSave = new System.Windows.Forms.Button();
+            this.TUserName = new System.Windows.Forms.TextBox();
+            this.LUserName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Fname
             // 
             this.Fname.AutoSize = true;
-            this.Fname.Location = new System.Drawing.Point(10, 14);
+            this.Fname.Location = new System.Drawing.Point(5, 55);
             this.Fname.Name = "Fname";
             this.Fname.Size = new System.Drawing.Size(57, 13);
             this.Fname.TabIndex = 0;
@@ -51,7 +53,7 @@
             // NameText
             // 
             this.NameText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.NameText.Location = new System.Drawing.Point(80, 50);
+            this.NameText.Location = new System.Drawing.Point(80, 88);
             this.NameText.Multiline = true;
             this.NameText.Name = "NameText";
             this.NameText.Size = new System.Drawing.Size(202, 20);
@@ -60,7 +62,7 @@
             // LName
             // 
             this.LName.AutoSize = true;
-            this.LName.Location = new System.Drawing.Point(10, 57);
+            this.LName.Location = new System.Drawing.Point(12, 95);
             this.LName.Name = "LName";
             this.LName.Size = new System.Drawing.Size(35, 13);
             this.LName.TabIndex = 2;
@@ -69,7 +71,7 @@
             // EmailText
             // 
             this.EmailText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.EmailText.Location = new System.Drawing.Point(80, 93);
+            this.EmailText.Location = new System.Drawing.Point(80, 132);
             this.EmailText.Multiline = true;
             this.EmailText.Name = "EmailText";
             this.EmailText.Size = new System.Drawing.Size(202, 20);
@@ -78,7 +80,7 @@
             // LEmail
             // 
             this.LEmail.AutoSize = true;
-            this.LEmail.Location = new System.Drawing.Point(10, 100);
+            this.LEmail.Location = new System.Drawing.Point(12, 139);
             this.LEmail.Name = "LEmail";
             this.LEmail.Size = new System.Drawing.Size(32, 13);
             this.LEmail.TabIndex = 4;
@@ -87,7 +89,7 @@
             // SignatureText
             // 
             this.SignatureText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SignatureText.Location = new System.Drawing.Point(80, 141);
+            this.SignatureText.Location = new System.Drawing.Point(80, 181);
             this.SignatureText.Multiline = true;
             this.SignatureText.Name = "SignatureText";
             this.SignatureText.Size = new System.Drawing.Size(202, 72);
@@ -96,7 +98,7 @@
             // LSignature
             // 
             this.LSignature.AutoSize = true;
-            this.LSignature.Location = new System.Drawing.Point(10, 148);
+            this.LSignature.Location = new System.Drawing.Point(10, 228);
             this.LSignature.Name = "LSignature";
             this.LSignature.Size = new System.Drawing.Size(52, 13);
             this.LSignature.TabIndex = 6;
@@ -105,7 +107,7 @@
             // FnameText
             // 
             this.FnameText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.FnameText.Location = new System.Drawing.Point(80, 14);
+            this.FnameText.Location = new System.Drawing.Point(80, 48);
             this.FnameText.Multiline = true;
             this.FnameText.Name = "FnameText";
             this.FnameText.Size = new System.Drawing.Size(202, 20);
@@ -121,11 +123,31 @@
             this.BSave.Text = "Register";
             this.BSave.UseVisualStyleBackColor = false;
             // 
+            // TUserName
+            // 
+            this.TUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TUserName.Location = new System.Drawing.Point(80, 12);
+            this.TUserName.Multiline = true;
+            this.TUserName.Name = "TUserName";
+            this.TUserName.Size = new System.Drawing.Size(202, 20);
+            this.TUserName.TabIndex = 11;
+            // 
+            // LUserName
+            // 
+            this.LUserName.AutoSize = true;
+            this.LUserName.Location = new System.Drawing.Point(5, 19);
+            this.LUserName.Name = "LUserName";
+            this.LUserName.Size = new System.Drawing.Size(57, 13);
+            this.LUserName.TabIndex = 10;
+            this.LUserName.Text = "UserName";
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 339);
+            this.ClientSize = new System.Drawing.Size(324, 325);
+            this.Controls.Add(this.TUserName);
+            this.Controls.Add(this.LUserName);
             this.Controls.Add(this.BSave);
             this.Controls.Add(this.FnameText);
             this.Controls.Add(this.SignatureText);
@@ -155,5 +177,7 @@
         private System.Windows.Forms.Label LSignature;
         private System.Windows.Forms.TextBox FnameText;
         private System.Windows.Forms.Button BSave;
+        private System.Windows.Forms.TextBox TUserName;
+        private System.Windows.Forms.Label LUserName;
     }
 }
