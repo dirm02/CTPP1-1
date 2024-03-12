@@ -120,7 +120,7 @@
             this.BSave.Name = "BSave";
             this.BSave.Size = new System.Drawing.Size(99, 43);
             this.BSave.TabIndex = 9;
-            this.BSave.Text = "Register";
+            this.BSave.Text = "SAVE";
             this.BSave.UseVisualStyleBackColor = false;
             // 
             // TUserName
@@ -161,6 +161,7 @@
             this.MinimizeBox = false;
             this.Name = "Registration";
             this.Text = "Registration";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Registration_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,6 +33,7 @@
             this.LUSERNAME = new System.Windows.Forms.Label();
             this.BLogin = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BReg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WelcomeMessage
@@ -48,21 +49,22 @@
             // 
             // TextUSERNAME
             // 
-            this.TextUSERNAME.Location = new System.Drawing.Point(90, 102);
+            this.TextUSERNAME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TextUSERNAME.Location = new System.Drawing.Point(107, 101);
             this.TextUSERNAME.Multiline = true;
             this.TextUSERNAME.Name = "TextUSERNAME";
-            this.TextUSERNAME.Size = new System.Drawing.Size(219, 37);
+            this.TextUSERNAME.Size = new System.Drawing.Size(202, 37);
             this.TextUSERNAME.TabIndex = 2;
             this.TextUSERNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LUSERNAME
             // 
             this.LUSERNAME.AutoSize = true;
-            this.LUSERNAME.Location = new System.Drawing.Point(12, 126);
+            this.LUSERNAME.Location = new System.Drawing.Point(9, 113);
             this.LUSERNAME.Name = "LUSERNAME";
-            this.LUSERNAME.Size = new System.Drawing.Size(68, 13);
+            this.LUSERNAME.Size = new System.Drawing.Size(80, 13);
             this.LUSERNAME.TabIndex = 3;
-            this.LUSERNAME.Text = "USERNAME";
+            this.LUSERNAME.Text = "USERNAME>>";
             // 
             // BLogin
             // 
@@ -83,11 +85,23 @@
             this.panel1.Size = new System.Drawing.Size(200, 195);
             this.panel1.TabIndex = 5;
             // 
+            // BReg
+            // 
+            this.BReg.BackColor = System.Drawing.Color.Yellow;
+            this.BReg.Location = new System.Drawing.Point(107, 163);
+            this.BReg.Name = "BReg";
+            this.BReg.Size = new System.Drawing.Size(75, 38);
+            this.BReg.TabIndex = 6;
+            this.BReg.Text = "REGISTER";
+            this.BReg.UseVisualStyleBackColor = false;
+            this.BReg.Click += new System.EventHandler(this.BReg_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(592, 213);
+            this.Controls.Add(this.BReg);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BLogin);
             this.Controls.Add(this.LUSERNAME);
@@ -109,5 +123,6 @@
         private System.Windows.Forms.Label LUSERNAME;
         private System.Windows.Forms.Button BLogin;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BReg;
     }
 }

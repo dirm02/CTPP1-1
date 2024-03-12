@@ -16,7 +16,9 @@ namespace CTPP1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CTPP1());
+            Login f1= new Login();
+            f1.Show();
+            Application.Run();
         }
     }
 }

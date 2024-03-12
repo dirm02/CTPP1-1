@@ -12,10 +12,17 @@ namespace CTPP1
 {
     public partial class Login : Form
     {
+        private Registration newForm; // Declare a reference to the new form
         public Login()
         {
             InitializeComponent();
+            newForm = new Registration(); // Initialize the new form instance
         }
 
+        private void BReg_Click(object sender, EventArgs e)
+        {
+            this.Close(); // Close the current form (Form1)
+            newForm.Show(); // Show the new form (Form2)
+        }
     }
 }

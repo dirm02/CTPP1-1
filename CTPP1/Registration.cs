@@ -17,5 +17,9 @@ namespace CTPP1
             InitializeComponent();
         }
 
+        private void Registration_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
