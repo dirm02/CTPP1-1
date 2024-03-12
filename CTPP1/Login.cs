@@ -24,5 +24,15 @@ namespace CTPP1
             this.Close(); // Close the current form (Form1)
             newForm.Show(); // Show the new form (Form2)
         }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+              Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

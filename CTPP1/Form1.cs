@@ -22,5 +22,9 @@ namespace CTPP1
 
         }
 
+        private void CTPP1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
