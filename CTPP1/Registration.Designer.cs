@@ -122,6 +122,7 @@
             this.BSave.TabIndex = 9;
             this.BSave.Text = "SAVE";
             this.BSave.UseVisualStyleBackColor = false;
+            this.BSave.Click += new System.EventHandler(this.BSave_Click);
             // 
             // TUserName
             // 

@@ -17,7 +17,7 @@ namespace CTPP1
 
         public string Signature { get; set; }
 
-        public string Registration
+        public string FullInfo
         {
             get
             {

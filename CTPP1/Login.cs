@@ -21,7 +21,7 @@ namespace CTPP1
 
         private void BReg_Click(object sender, EventArgs e)
         {
-            this.Close(); // Close the current form (Form1)
+            //this.Close(); // Close the current form (Form1)
             newForm.Show(); // Show the new form (Form2)
         }
 
