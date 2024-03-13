@@ -36,8 +36,6 @@
             this.TextR4 = new System.Windows.Forms.TextBox();
             this.CurrentStatus = new System.Windows.Forms.Label();
             this.IncidentDescription = new System.Windows.Forms.Label();
-            this.TopPanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.CB1 = new System.Windows.Forms.ComboBox();
             this.NumberofPayPoints = new System.Windows.Forms.Label();
             this.CB2 = new System.Windows.Forms.ComboBox();
@@ -45,7 +43,22 @@
             this.TextR2 = new System.Windows.Forms.TextBox();
             this.CB3 = new System.Windows.Forms.ComboBox();
             this.ImpactTime = new System.Windows.Forms.Button();
-            this.TopPanel.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // SiteNumber
@@ -121,24 +134,6 @@
             this.IncidentDescription.TabIndex = 6;
             this.IncidentDescription.Text = "Incident Description:";
             // 
-            // TopPanel
-            // 
-            this.TopPanel.BackColor = System.Drawing.Color.Aquamarine;
-            this.TopPanel.Controls.Add(this.button1);
-            this.TopPanel.Location = new System.Drawing.Point(15, 8);
-            this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(659, 53);
-            this.TopPanel.TabIndex = 12;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(5, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // CB1
             // 
             this.CB1.FormattingEnabled = true;
@@ -200,11 +195,156 @@
             this.ImpactTime.Text = "Business Impact Time";
             this.ImpactTime.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(251, 288);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 35);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "StartDate&Time";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(434, 288);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 35);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "EndDate&Time";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(167, 329);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(351, 20);
+            this.textBox1.TabIndex = 23;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 336);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Reference Number: ";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(167, 355);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(351, 20);
+            this.textBox2.TabIndex = 25;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 362);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Technician Assigned:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Location = new System.Drawing.Point(167, 381);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(351, 20);
+            this.textBox3.TabIndex = 27;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 388);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 13);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Second Level Assigned:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Location = new System.Drawing.Point(167, 407);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(351, 64);
+            this.textBox4.TabIndex = 29;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 414);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Chronology: ";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(545, 245);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 78);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "Total Incident Duration Time:";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Location = new System.Drawing.Point(12, 8);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(662, 53);
+            this.panel1.TabIndex = 33;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(34, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 35);
+            this.button4.TabIndex = 34;
+            this.button4.Text = "Create";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(146, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 35);
+            this.button5.TabIndex = 35;
+            this.button5.Text = "Update";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(261, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 35);
+            this.button6.TabIndex = 36;
+            this.button6.Text = "Resolve";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // CTPP1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 483);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ImpactTime);
             this.Controls.Add(this.CB3);
             this.Controls.Add(this.TextR2);
@@ -212,7 +352,6 @@
             this.Controls.Add(this.CB2);
             this.Controls.Add(this.NumberofPayPoints);
             this.Controls.Add(this.CB1);
-            this.Controls.Add(this.TopPanel);
             this.Controls.Add(this.TextR4);
             this.Controls.Add(this.CurrentStatus);
             this.Controls.Add(this.IncidentDescription);
@@ -228,7 +367,7 @@
             this.Text = "CTPP1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CTPP1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.TopPanel.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,7 +383,6 @@
         private System.Windows.Forms.TextBox TextR4;
         private System.Windows.Forms.Label CurrentStatus;
         private System.Windows.Forms.Label IncidentDescription;
-        private System.Windows.Forms.Panel TopPanel;
         private System.Windows.Forms.ComboBox CB1;
         private System.Windows.Forms.Label NumberofPayPoints;
         private System.Windows.Forms.ComboBox CB2;
@@ -253,6 +391,20 @@
         private System.Windows.Forms.ComboBox CB3;
         private System.Windows.Forms.Button ImpactTime;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }
 
